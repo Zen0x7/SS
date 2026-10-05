@@ -1,0 +1,26 @@
+{
+  "name": "ss",
+  "type": "module",
+  "private": true,
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "typecheck": "nuxi typecheck",
+    "test:e2e": "node test/e2e.mjs"
+  },
+  "dependencies": {
+    "@vite-pwa/nuxt": "^1.1.1",
+    "nuxt": "^4.5.2",
+    "vue": "^3.5.43",
+    "vue-router": "^5.3.1"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.63.0",
+    "typescript": "5.9",
+    "vue-tsc": "^3.3.12"
+  }
+}
